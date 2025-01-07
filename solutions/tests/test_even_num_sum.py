@@ -8,7 +8,8 @@ Author: OpenAI Assistant
 """
 
 import unittest
-from even_num_sum import sum_of_even_numbers
+from ..even_num_sum import sum_of_even_numbers
+
 
 class TestSumOfEvenNumbers(unittest.TestCase):
     """Unit tests for the sum_of_even_numbers function."""
@@ -50,6 +51,7 @@ class TestSumOfEvenNumbers(unittest.TestCase):
         """It should raise TypeError if the list contains non-integer elements."""
         with self.assertRaises(TypeError):
             sum_of_even_numbers([1, 2, "three", 4])
+
 
 if __name__ == "__main__":
     unittest.main()

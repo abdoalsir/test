@@ -12,6 +12,7 @@ Example usage:
     6
 """
 
+
 def sum_of_even_numbers(numbers: list[int]) -> int:
     """
     Calculate the sum of all even numbers in a list.
@@ -42,5 +43,6 @@ def sum_of_even_numbers(numbers: list[int]) -> int:
     # Strategy: Iterate through the list and sum up even numbers
     even_sum = sum(num for num in numbers if num % 2 == 0)
     return even_sum
+
 
 print(sum_of_even_numbers([1, 2, 3, 4]))
