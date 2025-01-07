@@ -12,6 +12,7 @@ Author: Cody + Abdulrahman Ali
 """
 
 import unittest
+
 # When cloning the repository locally, the test file might not be able to import the function
 # To fix this, run the following command in the terminal: "python -m tests.test_fizz_buzz_game"
 # Make sure you are in the correct directory.
